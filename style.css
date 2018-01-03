@@ -1,0 +1,286 @@
+/*global*/
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*''''''''''''''''''''''''' landing '''''''''''''''''''''' */
+
+.landing{
+  background-color: black;
+	height: 100vh;
+	width: 100%;
+	padding-top: 6%;
+	background-image: url(img/Road.jpg);
+	box-shadow: inset 0 0 0 1000px rgba(27, 27, 36, 0.8);
+	background-size: cover;
+	/*1- hacer mas opaco poniendole un background unicolor encima */
+	text-align: center;
+}
+
+.landing h1{
+	color: #EF5B1E;
+	font-size: 73px;
+	margin-top: 8%;
+	padding-bottom: 20px;
+}
+
+.landing h2{
+	color: white;
+	font-size: 40px;
+	padding-bottom: 40px;
+}
+
+.landing h3{
+	padding-bottom: 30px;
+	color: white;
+}
+
+.landing button{
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	font-weight: 200;
+	line-height: 1;
+	padding: 16px 40px;
+}
+
+#serviceButton{
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid white;
+	margin-right: 5%;
+}
+
+#serviceButton:hover{
+	color: #217ADE;
+	background-color: #B8B9BB;
+}
+
+#kontaktButton{
+	color: white;
+	background-color: #217ADE;
+	border: none;
+	text-transform: uppercase;
+}
+
+#kontaktButton:hover{
+	background-color: transparent;
+	color: #217ADE;
+	border: 2px solid #217ADE;
+}
+
+.landing img{
+	height: 75%;
+	margin-top: 12%;
+}
+
+.landing img:hover{
+	margin-top: 8%;
+	height: 80%;
+}
+
+/*""""""""""""""""""description"""""""""""""""""*/
+
+.description{
+	height: 120vh;
+	background-color: black;
+}
+
+/*columm 1-3*/
+.imgbtn{
+	text-align: center;
+}
+
+.description img{
+	height: 80vh;
+	display: block;
+	margin: 0 auto;
+	margin-top: 23%;
+}
+
+.description button{
+	padding: 14px 80px;
+	border-radius: 5px;
+	background-color: #ff6600;
+	font-size: 22px;
+	letter-spacing: 1px;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+/*make it a transition*/
+.description button:hover{
+	padding: 18px 90px;
+	background-color: white;
+}
+
+/*columm 2-3 3-3*/
+
+.description i{
+	font-size: 40px;
+	color: #EF5B1E;
+}
+
+.description h3{
+	font-size: 20px;
+}
+
+.description p{
+	font-size: 17px;
+	padding-right: 10%;
+	line-height: 2em;
+}
+
+/*columm 2-3*/
+
+.fa-calendar{
+ margin-top: 70%;
+ margin-bottom: 8%;
+}
+
+.fa-wrench{
+ margin-top: 20%;
+ margin-bottom: 8%;
+}
+
+/*columm 3-3*/
+
+.fa-commenting-o{
+ margin-top: 70%;
+ margin-bottom: 8%;
+
+}
+
+.fa-envelope-o{
+ margin-top: 20%;
+ margin-bottom: 8%;
+
+}
+
+
+.block h3{
+	color: #EF5B1E;
+}
+
+.block p{
+	color: white;
+}
+
+/*""""""""""""""""""""""""""services""""""""""""""""""""*/
+
+/*columm 1-3 2-3 3-3 */
+
+.services{
+	background-color: #EF5B1E;
+	height: 100vh;
+}
+
+.services h2{
+	 text-align: center;
+	 padding: 4%;
+	 height: 10%;
+}
+
+.box{
+	background-color: white;
+	margin: 10px;
+	text-align: center;
+	margin-top: 5%;
+	/*agregar una sombra a las cajas*/
+}
+
+.services .fa{
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.services p{
+	padding: 0 10px;
+	line-height: 2em;
+	margin-bottom: 10%;
+}
+
+.box h4{
+	padding-top: 15%;
+}
+
+.box p{
+	padding-bottom: 15%;
+}
+
+/*'''''''''''''''''''''''quote'''''''''''''''''*/
+
+.quote{
+	height: 70vh;
+	background-image: url(img/quote.jpg);
+	box-shadow: inset 0 0 0 1000px rgba(58, 120, 148, 0.7);
+}
+
+.quote h2{
+	color: black;
+	text-align: center;
+	padding: 0px 15%;
+	font-weight: 200px;
+	margin-top: 15%;
+	line-height: 2.5;
+}
+
+.quote img{
+	height: 90%;
+	margin-top: 5%;
+}
+/*''''''''''''''''''''''' kunden ''''''''''''''''''*/
+
+.kunden{
+	height: 60vh;
+	background-color: black;
+	text-align: center;
+}
+
+.kunden h2{
+	color: #ff6600;
+	text-align: center;
+	font-size: 40px;
+	word-spacing: 5px;
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+
+.kunden img{
+	height: 100px;
+}
+
+#ZEG{
+	height: 100px;
+	margin-left: 20%;
+	margin-top: 6%;
+}
+
+#PAPI{
+	height: 150px;
+	margin-left: 20%;
+
+}
+
+#VW{
+	height: 170px;
+	margin-right: 10%;
+
+}
+
+#Technomat{
+	height: 130px;
+	margin-right: 20%;
+	margin-top: 5%;
+}
+
+
