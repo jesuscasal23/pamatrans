@@ -194,7 +194,6 @@ body{
 .services h2{
 	 text-align: center;
 	 padding: 4%;
-	 height: 10%;
 }
 
 .box{
@@ -243,7 +242,7 @@ body{
 
 .quote img{
 	display: block;
-	height: 200px;
+	height: 180px;
 	margin: 0 auto;
 	margin-top: 10%;
 }
@@ -295,28 +294,27 @@ body{
 	margin-bottom: 15%;
 }
 
+@media (max-width: 900px) and (min-width: 601px){
+	.description img{
+		margin-top: 10%;
+	}
 
-@media (max-width: 600px) {
+	.extra p{
+		margin-bottom: 10%;
+	}
 
-	/*landing*/
+	.quote img{
+		margin-top: 40%;
+	}
 
-	/*description*/
-	/*services*/
-	/*quotes*/
-	/*kunden*/
-
-		#serviceButton{
+	.quote h2{
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 }
 
-
-
-@media (max-width: 900px) and (min-width: 601px){
-
-}
-
 @media (max-width: 1200px) and (min-width: 901px){
-
+	.services
 }
 
 @media (min-width: 1800px) {
