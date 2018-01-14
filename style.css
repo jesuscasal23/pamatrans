@@ -313,11 +313,40 @@ body{
 	}
 }
 
-@media (max-width: 1200px) and (min-width: 901px){
-	.services
-}
+@media (min-width: 901px) {
+	/*landing*/
 
-@media (min-width: 1800px) {
+	.landing img{
+		height: 300px;
+		margin: 0 auto;
+		margin-top: 12%;
+	}
 
+	.landing img:hover{
+		margin: 0 auto;
+		margin-top: 8%;
+		height: 320px;
+	}
+	/*description*/
+
+	.imgbtn{
+		text-align: center;
+		margin-bottom: 5%;
+	}
+
+	/*quote*/
+
+	.quote img{
+		margin-top: 10%;
+		height: 280px;
+	}
+
+	.quote h2{
+		margin-top: 17%;
+		margin-bottom: 10%;
+	}
+	/*Kunden*/
+
+	/*form*/
 }
 
